@@ -1,0 +1,36 @@
+curve(x + 0, from = -10, to=10)
+
+
+par(mfrow=c(4,2), mar=c(2,2,2,2))
+curve(x+100, from = -10, to = 10, main = "x1")
+curve(x-100, from = -10, to = 10, main = "x2")
+curve(-x-100, from = -10, to = 10, main = "x3")
+curve(2*x+100, from = -10, to = 10, main = "x4")
+
+par(mfrow=c(5,2), mar=c(2,2,2,2))
+curve(x+0, from = -10, to = 10, main = "x")
+curve(abs(x), from = -10, to = 10, main = "|x|")
+curve(x^2, from = -10, to = 10, main = "x^2")
+curve(x^3, from = -10, to = 10, main = "x^3")
+curve(x^4, from = -10, to = 10, main = "x^4")
+curve(x^5, from = -10, to = 10, main = "x^5")
+curve(x^(1/2), from = -10, to = 10, main = "x^(1/2)")
+curve(x^(1/3), from = -10, to = 10, main = "x^(1/3)")
+curve(1/x, from = -10, to = 10, main = "1/x")
+curve(1/(x^2), from = -10, to = 10, main = "1/(x^2)")
+
+abs(-40)
+sqrt(40)
+
+
+par(mfrow=c(5,2), mar=c(2,2,2,2))
+curve(x+0, from = 0, to = 10, main = "x")
+curve(abs(x), from = 0, to = 10, main = "|x|")
+curve(x^2, from = 0, to = 10, main = "x^2")
+curve(x^3, from = 0, to = 10, main = "x^3")
+curve(x^4, from = 0, to = 10, main = "x^4")
+curve(x^5, from = 0, to = 10, main = "x^5")
+curve(x^(1/2), from = 0, to = 10, main = "x^(1/2)")
+curve(x^(1/3), from = 0, to = 10, main = "x^(1/3)")
+curve(1/x, from = 0, to = 10, main = "1/x")
+curve(1/(x^2), from = 0, to = 10, main = "1/(x^2)")
